@@ -11,7 +11,7 @@ const user = useSelector((state) => state.userReducer.user);
         <h2>{user && user.email}</h2>
         <h2>{user && user.phone}</h2>
     </div>
-  )
-}
+  );
+};
 
 export default Profile;

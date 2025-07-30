@@ -19,7 +19,7 @@ const handleChange = (e) => {
 const handleUser = (e) => {
     e.preventDefault(); // empêche le rechargement de la page
     dispatch(login(user)); // envoie une action Redux avec les données
-navigate('/profile'); // redirige vers la page de profil après l'inscription
+navigate("/profile"); // redirige vers la page de profil après l'inscription
 };
 
 
@@ -43,7 +43,7 @@ navigate('/profile'); // redirige vers la page de profil après l'inscription
        
         <Link to='/profile'>
         <Button variant="primary" type="submit" onClick={handleUser}>
-            login
+            Register
             </Button>
         </Link>
     </div>

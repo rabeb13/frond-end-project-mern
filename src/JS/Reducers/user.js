@@ -32,7 +32,7 @@ case CURRENT_USER:
     
 case LOGOUT_USER:
     localStorage.removeItem("token");
-return { ...state, loadUser: false, errors: [], isAuth: false };
+return { user:null, loadUser: false, errors: [], isAuth: false };
 default:
     return state;   
 }
